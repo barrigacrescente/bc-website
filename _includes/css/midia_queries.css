@@ -1,4 +1,36 @@
 @media only screen and (max-width:720px){
-  /*Navegation*/
-
+  .fullscreen-no-flex {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .site-header {
+    background: #fff;
+    height: auto;
+  }
+  .flex-content {
+    flex-direction: column;
+  }
+  .wrapper {
+    margin: 40px 20px;
+  }
+  .header-calendar-content {
+    margin-top: 0;
+  }
+  .header-calendar-content-icon {
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin: 0 auto;
+    display: block;
+  }
+  .event-content {
+    padding: 0;
+  }
+  .previous-editions-item {
+    width: 180px;
+    height: 200px;
+  }
+  .event-subscription-image {
+    display: none;
+  }
 }
