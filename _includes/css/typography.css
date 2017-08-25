@@ -1,0 +1,43 @@
+/* Typography */
+
+::-moz-selection{
+  color:#fff;
+  background: #B09263;
+}
+::selection {
+  color:#fff;
+  background: #B09263;
+}
+
+/* #headline */
+h2,
+h3,
+h4,
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 36px;
+}
+h2.book-title {
+  margin-top: 0;
+}
+.header-pages-title {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 31px;
+}
+.header-pages-title h1 {
+  font-weight: 900;
+}
+.serif-font,
+.wrapper p {
+  font-size: 17.2px;
+  line-height: 32px;
+  font-family: 'Braskervile', serif;
+}

@@ -1,0 +1,14 @@
+/* #Forms */
+label {
+  color: #9C9CDD;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input {
+  background: #fff;
+  border: 1px solid #9C9CDD;
+  width: 100%;
+  font-size: 1em;
+  padding: 5px;
+}

@@ -1,0 +1,19 @@
+---
+title: BarrigaCrescente
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: kramdown
+baseurl: "/bc-website"
+author: BarrigaCrescente
+email:
+description: BarrigaCrescente
+exclude:
+- README.md
+- Gemfile.lock
+- vendor
