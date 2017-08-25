@@ -22,16 +22,10 @@ $(document).ready(function(){
       });
   });
 
-  $('.icon-arrow-down').each(function(){
-      $(this).click(function(){
-          $('html,body').animate({ scrollTop: 800 }, 'slow');
-          return false;
-      });
-  });
-
-  $.getScript("../js/jquery-ui.min.js", function(){
-    $(".book-scrool-content img").draggable({
-      axis: "x"
-    });
+  $('.btn-subscription').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 800);
+      return false;
   });
 });//wrapper end
