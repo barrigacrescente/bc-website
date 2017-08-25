@@ -1,0 +1,37 @@
+/* #Button */
+.btn,
+a.btn,
+button {
+  background: #9C9CDD;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 400;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.btn:hover,
+a.btn:hover,
+button:hover {
+  background: #F1D3D3;
+}
+
+.go-top {
+  background-position: 0 -158px;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 240px;
+  right: 50px;
+  display: none;
+}

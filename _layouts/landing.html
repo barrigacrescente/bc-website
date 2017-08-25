@@ -3,36 +3,50 @@
     <header class="site-header">
       <div class="header">
         <a class="logo" href="#"></a>
-        <div class="header-content header-calendar-content">
-          <div class="icon icon-calendar"></div>
-          <div class="header-calendar-label">
-            PRÓXIMO ENCONTRO
+        <div class="header-content header-calendar-content flex-content">
+          <div class="header-calendar-content-icon">
+            <div class="icon icon-calendar"></div>
           </div>
-          <div class="header-calendar-date">
-            7 de Outubro
+          <div class="header-calendar-content-infos flex-item">
+            <div class="header-calendar-label">
+              PRÓXIMO ENCONTRO
+            </div>
+            <div class="header-calendar-date">
+              7 de Outubro
+            </div>
+            <div class="header-calendar-place">
+              Sociedade Ginástica
+              <br />
+              Novo Hamburgo - RS
+            </div>
+            <a href="#" class="header-calendar-map-location">Ver no mapa</a>
           </div>
-          <div class="header-calendar-place">
-            Sociedade Ginástica
-            <br />
-            Novo Hamburgo - RS
+          <div class="header-calendar-content-cta flex-item">
+            <p>
+              Evento gratuíto
+            </p>
+            <p>
+              <button class="btn btn-header" type="button" name="button">
+                Inscreva-se aqui
+              </button>
+            </p>
           </div>
-          <a href="#" class="header-calendar-map-location">Ver no mapa</a>
         </div>
       </div>
     </header>
     <section>
-      <div class="wrapper event-content">
+      <div class="wrapper event-content flex-content">
         {{ content }}
-        <div class="event-agenda">
-          <h3>Programação</h3>
+        <div class="event-agenda flex-item">
+          <h3 class="landing-title">Programação</h3>
           <ul class="event-agenda-item-content">
             <li class="event-agenda-item"></li>
             <li class="event-agenda-item"></li>
             <li class="event-agenda-item"></li>
           </ul>
         </div>
-        <div class="event-speakers">
-          <h3>Palestrantes</h3>
+        <div class="event-speakers flex-item">
+          <h3 class="landing-title">Palestrantes</h3>
           <ul class="event-speakers-content">
             <li class="event-speakers-item">
               <div class="event-speakers-item-infos">
@@ -45,20 +59,22 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="wrapper event-subscribe-container">
-        <div class="event-subscribe-image">
-          <img src="" alt="">
+    <section class="gradient-secundary fullscreen">
+      <div class="wrapper event-subscription-container flex-content">
+        <div class="event-subscription-image flex-item">
+          <img src="img/subscription-image.png" style="max-width:312px;" alt="">
         </div>
-        <div class="event-subscribe-form">
-          <h3>Inscreva-se</h3>
+        <div class="event-subscription-form flex-item">
+          <h3 class="landing-title">Inscreva-se</h3>
           <p>
             Evento gratuíto para gestantes e casais grávidos
             <br />
             7 de Outubro 2017 - Novo Hamburgo
           </p>
           <form class="" action="index.html" method="post">
-            <button class="btn"  type="submit" name="button"></button>
+            <button class="btn" type="submit" name="button">
+              Me inscrever
+            </button>
           </form>
           <p>
             Mais informações?
@@ -71,10 +87,10 @@
       </div>
     </section>
 
-    <section>
-      <div class="wrapper event-project-infos-conteiner">
-        <div class="event-project-infos">
-          <h3>
+    <section class="fullscreen">
+      <div class="wrapper event-project-infos-conteiner flex-content">
+        <div class="event-project-infos flex-item">
+          <h3 class="landing-title">
             O que é o
             <br />
             BarrigaCrescente
@@ -83,25 +99,35 @@
             Projeto criado para auxiliar as mulheres a vivenciarem o lado sutil da gestação e promover uma maternidade consciente e ativa.
           </p>
         </div>
-        <div class="event-project-image">
+        <div class="event-project-image flex-item">
+          <img src="img/logo-bc-infos.png" style="max-width:318px;" align="right" alt="">
         </div>
       </div>
     </section>
-    <section>
-      <div class="wrapper event-previous-editions">
+    <section class="gradient-default fullscreen-no-flex">
+      <div class="wrapper event-previous-editions-title">
+        <h3 class="landing-title">
+          Encontros anteriores
+        </h3>
+      </div>
+      <div class="wrapper event-previous-editions flex-content">
         <ul>
-          <li class="previous-editions-item">
+          <li class="flex-item previous-editions-item">
             <img src="" alt="">
-            <div class="previous-editions-item-info">
-              <div class="icon icon-location"></div>
-              <div class="previous-editions-item-info-city"></div>
+            <div class="previous-editions-item-info background-transparent">
+              <div class="icon icon-location-white"></div>
+              <div class="previous-editions-item-info-city" style="color:#fff !important;">
+                Novo Hamburgo
+              </div>
             </div>
           </li>
-          <li class="previous-editions-item">
-            <img src="" alt="">
+          <li class="flex-item previous-editions-item">
+            <img style="background:cover;" src="/img/previous_editions/sp_pinheiros.png" alt="">
             <div class="previous-editions-item-info">
               <div class="icon icon-location"></div>
-              <div class="previous-editions-item-info-city"></div>
+              <div class="previous-editions-item-info-city">
+                Pinheiros, SP
+              </div>
             </div>
           </li>
         </ul>
@@ -140,8 +166,10 @@
     </section>
     <section class="">
       <div class="wrapper sponsor">
-        <h3 class="sponsor-title">
-          Obrigado os nossos patrocinadores
+        <h3 class="landing-title">
+          Obrigado os
+          <br />
+          nossos patrocinadores
         </h3>
         <ul>
           <li class="sponsor-item sponsor-gold"></li>
