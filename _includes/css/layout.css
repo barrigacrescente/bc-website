@@ -64,6 +64,9 @@ footer {
   background: -webkit-linear-gradient(to right, #FFFFFF, #F1D3D3);
   background:         linear-gradient(to right, #FFFFFF, #F1D3D3);
 }
+#event-subscription-container {
+  padding: 20px 0;
+}
 
 /* #Images */
 .logo {

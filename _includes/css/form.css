@@ -3,12 +3,15 @@ label {
   color: #9C9CDD;
   display: block;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 400;
 }
 input {
   background: #fff;
   border: 1px solid #9C9CDD;
-  width: 100%;
   font-size: 1em;
   padding: 5px;
+}
+input.label-radio,
+input[type="radio"] {
+  display: inline-block;
 }
