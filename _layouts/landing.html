@@ -90,7 +90,20 @@
             <br>
             7 de Outubro 2017 - Novo Hamburgo
             <br>
-          <form class="checkout-forms" id="input-form-shiping" action="" method="POST" target="no-target">
+
+            <p class="event-subscription-form-send">
+              Confirmado!
+              <br>
+              Que legal que você vem :)
+              <br>
+              Se tiver qualquer dúvida escreve pra gente tá?
+              <br>
+              <a href="mailto:eventobarrigacrescente@gmail.com">
+                eventobarrigacrescente@gmail.com
+              </a>
+            </p>
+
+          <form class="event-form" id="input-form-shiping" action="" method="POST" target="no-target">
             <p>
               <label for="">Seu Nome *</label>
               <input id="input-q1" class="payment-input" type="text" name="name" value="" tabindex="1">
@@ -299,7 +312,7 @@
       </div>
     </section>
     <section class="">
-      <div class="wrapper sponsor" style="margin:100px auto;">
+      <div class="wrapper sponsor" style="margin:100px auto 0 auto;">
         <h3 class="landing-title">
           Quer patrocinar?
         </h3>
@@ -324,6 +337,7 @@
         </ul> -->
       </div>
     </section>
+    <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
     {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="/js/main.js"></script>
@@ -351,9 +365,12 @@
             var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + "&" + q5ID + "=" + inputq5 + "&" + q6ID + "=" + inputq6 + submitRef);
             console.log(submitURL);
             $(this)[0].action=submitURL;
+            $('.event-form').hide();
+            $('.event-subscription-form-send').show();
             console.log("Enviou o google form");
             //end user data form
           }
+
         });
       });
     </script>
