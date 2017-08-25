@@ -209,8 +209,10 @@ ul li {
   padding-top: 10px;
 }
 .event-speakers-item {
-  width: 120px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
+  vertical-align: top;
+  overflow: hidden;
   border: 2px solid #F1D3D3;
   display: inline-block;
   position: relative;
@@ -234,15 +236,15 @@ ul li {
 .event-speakers-item-info,
 .previous-editions-item-info {
   background: #fff;
-  margin-left: 10px;
-  padding: 0 5px;
+  padding: 5px;
   position: absolute;
   display: inline-block;
   bottom: 10px;
-  font-size: 12px;
 }
 .event-speakers-item-info {
-  font-size: 0.8em;
+  font-size: 0.7em;
+  line-height: 1.5;
+  color: #9C9CDD;
 }
 .background-transparent {
   background: transparent;
