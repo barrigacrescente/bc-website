@@ -27,10 +27,13 @@
     padding: 0;
   }
   .previous-editions-item {
-    width: 180px;
+    width: 48%;
     height: 200px;
   }
   .event-subscription-image {
     display: none;
+  }
+  .event-speakers-item {
+    width: 120px;
   }
 }
