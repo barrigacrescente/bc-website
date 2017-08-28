@@ -28,6 +28,9 @@
     margin: 0 auto;
     display: block;
   }
+  .icon-heart-purple-speaker {
+    left: 40%;
+  }
   .event-content {
     padding: 0;
   }
@@ -37,6 +40,14 @@
   .event-project-image img {
     width: 238px;
     margin: 30px auto 0 auto;
+  }
+  .previous-editions-item-info-city {
+    font-size: 0.7em;
+  }
+  .icon-location {
+    background-position: 0 -83px;
+    width: 20px;
+    height: 20px;
   }
   .previous-editions-item {
     width: 48%;
@@ -65,5 +76,9 @@
   .footer {
     width: 100%;
     text-align: center;
+  }
+  .footer-navegation {
+    padding: 20px 0;
+    margin-bottom: -40px;
   }
 }

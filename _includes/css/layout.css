@@ -103,6 +103,14 @@ footer {
   height: 25px;
   display: inline-block;
 }
+.icon-heart-purple-speaker {
+    background-position: 0 -205px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
 .icon-location-white {
   background-position: 0 -135px;
   width: 25px;
@@ -279,7 +287,7 @@ ul li {
 
 /* #footer */
 .footer {
-  height: 100px;
+  height: 141px;
   display: flex;
   align-items: center;
   margin: 0;
