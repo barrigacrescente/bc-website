@@ -72,6 +72,12 @@
     width: 100%;
     margin: 5px;
   }
+  .sponsor-support {
+    text-align: center;
+  }
+  .sponsor-support-img {
+    margin: 0 auto;
+  }
   .footer-navegation,
   .footer {
     width: 100%;

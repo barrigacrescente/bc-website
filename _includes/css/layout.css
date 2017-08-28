@@ -183,6 +183,15 @@ ul li {
   width: 200px;
   height: 200px;
 }
+.sponsor-support {
+
+}
+.sponsor-support .landing-title {
+  margin:40px 0 10px 0;
+}
+.sponsor-support-img {
+  width: 180px;
+}
 
 .header-calendar-content {
   background: #fff;
