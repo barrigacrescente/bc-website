@@ -141,15 +141,29 @@ ul li {
 /* #Modules */
 .testemonials-item-content {
   text-align: center;
+  vertical-align: top;
 }
 .testemonials-item {
   font-size: 0.8em;
   text-align: center;
-  padding: 15px;
+  padding: 0 15px;
   max-width: 275px;
   height: 275px;
   border: 2px solid #F1D3D3;
   display: inline-block;
+  vertical-align: top;
+}
+.testemonials-item-testemonial {
+  display: block;
+  margin-bottom: 10px;
+}
+.testemonials-item-figure {
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50px;
 }
 .sponsor-item {
   width: 100px;

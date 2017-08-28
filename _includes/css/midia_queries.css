@@ -1,7 +1,5 @@
 @media only screen and (max-width:720px){
-  .testemonials-item,
   input {
-    max-width: 100%;
     width: 100%;
   }
   .fullscreen-no-flex {
@@ -57,5 +55,15 @@
   }
   .landing-title-bc-infos {
     font-size: 2em;
+  }
+  .testemonials-item {
+    max-width: 100%;
+    width: 100%;
+    margin: 5px;
+  }
+  .footer-navegation,
+  .footer {
+    width: 100%;
+    text-align: center;
   }
 }
