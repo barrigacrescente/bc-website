@@ -1,5 +1,7 @@
 @media only screen and (max-width:720px){
+  .testemonials-item,
   input {
+    max-width: 100%;
     width: 100%;
   }
   .fullscreen-no-flex {
@@ -18,6 +20,8 @@
   }
   .header-calendar-content {
     margin-top: 0;
+    border-bottom: 5px dotted #9C9CDD;
+    padding-bottom: 70px;
   }
   .header-calendar-content-icon {
     margin-bottom: 20px;
@@ -29,6 +33,13 @@
   .event-content {
     padding: 0;
   }
+  .event-project-image {
+    width: 80%;
+  }
+  .event-project-image img {
+    width: 238px;
+    margin: 30px auto 0 auto;
+  }
   .previous-editions-item {
     width: 48%;
     height: 200px;
@@ -37,7 +48,12 @@
     display: none;
   }
   .event-speakers-item {
-    width: 120px;
+    width: 100%;
+    flex-basis: center;
+    height: 290px;
+  }
+  .event-speakers-item-info {
+    font-size: 1em;
   }
   .landing-title-bc-infos {
     font-size: 2em;

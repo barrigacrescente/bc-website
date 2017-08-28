@@ -115,7 +115,7 @@ footer {
   height: 50px;
   position: absolute;
   left: 40%;
-  top: 30%;
+  top: 40%;
 }
 
 /* #Lists */
@@ -139,6 +139,9 @@ ul li {
 }
 
 /* #Modules */
+.testemonials-item-content {
+  text-align: center;
+}
 .testemonials-item {
   font-size: 0.8em;
   text-align: center;
@@ -146,6 +149,7 @@ ul li {
   max-width: 275px;
   height: 275px;
   border: 2px solid #F1D3D3;
+  display: inline-block;
 }
 .sponsor-item {
   width: 100px;
@@ -256,6 +260,7 @@ ul li {
   color: #9C9CDD;
   text-transform: uppercase;
   font-size: 0.8em;
+  font-weight: bold;
 }
 
 /* #footer */
