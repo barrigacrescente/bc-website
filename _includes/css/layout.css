@@ -45,7 +45,7 @@ footer {
   background-position: right;
 }
 .wrapper {
-  max-width: 900px;
+  max-width: 920px;
   margin: 40px auto 40px auto;
   position: relative;
   vertical-align: top;
@@ -237,8 +237,22 @@ ul li {
   padding: 0 50px;
   border-radius: 10px;
 }
-.event-agenda-item-content {
-  padding-right: 60px;
+.event-speakers {
+  padding-right: 50px;
+}
+.event-agenda-item {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+.event-agenda-item-hour {
+  align-self: flex-start;
+  width: 40px;
+  font-size: 0.8em;
+  /*background: #EAEAEA;*/
+  /*padding: 2px;*/
+  border-bottom: 2px solid #EAEAEA;
+  margin-right: 20px;
 }
 .event-previous-editions-title {
   padding-top: 10px;
