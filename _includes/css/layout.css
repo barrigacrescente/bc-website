@@ -190,10 +190,15 @@ ul li {
   margin:40px 0 10px 0;
 }
 .sponsor-support-img {
-  width: 150px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin: 0 10px;
+}
+.sponsor-support-img-circle {
+  width: 150px;
+}
+.sponsor-support-img-retangle {
+  width: 200px;
 }
 
 .header-calendar-content {
