@@ -395,35 +395,7 @@
     <script src="/js/main.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        $('#input-form-shiping').one('submit',function(){
-          //reverse captcha
-          var sp = $('#input-q7').val();
-          if (sp == "") {
-            //send form
-            var inputq1 = encodeURIComponent($('#input-q1').val());
-            var inputq2 = encodeURIComponent($('#input-q2').val());
-            var inputq3 = encodeURIComponent($('#input-q3').val());
-            var inputq4 = encodeURIComponent($('#input-q4').val());
-            var inputq5 = encodeURIComponent($('#input-q5').val());
-            var inputq6 = encodeURIComponent($('#input-q6').val());
-            var q1ID = "entry.1739233732"; //name
-            var q2ID = "entry.478972796";  //semana de gestação
-            var q3ID = "entry.985722992";  //sexo do bebê
-            var q4ID = "entry.338169619";  //levará acompanhante
-            var q5ID = "entry.1788886102"; //primeira gestação
-            var q6ID = "entry.905017135";  //email
-            var baseURL = 'https://docs.google.com/forms/u/1/d/e/1FAIpQLSeyHifETg4dXi6639uMw42GNancVG_fryOf0pEVoAA3tXw4nw/formResponse?';
-            var submitRef = '&submit=Submit';
-            var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + "&" + q5ID + "=" + inputq5 + "&" + q6ID + "=" + inputq6 + submitRef);
-            console.log(submitURL);
-            $(this)[0].action=submitURL;
-            $('.event-form').hide();
-            $('.event-subscription-form-send').show();
-            console.log("Enviou o google form");
-            //end user data form
-          }
-
-        });
+        
       });
     </script>
   </body>
