@@ -1,4 +1,5 @@
 @media only screen and (max-width:720px){
+  .grid-50,
   input {
     width: 100%;
   }
