@@ -9,7 +9,7 @@ button {
   color: #fff;
   font-weight: 400;
   outline: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;

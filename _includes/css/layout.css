@@ -31,7 +31,7 @@ footer {
 /* #header */
 .header,
 .header-pages-content {
-  max-width: 850px;
+  max-width: 920px;
   margin: 0 auto;
   position: relative;
 }
@@ -50,6 +50,7 @@ footer {
   position: relative;
   vertical-align: top;
 }
+.text-align-center,
 .cta-container {
   text-align: center;
 }
@@ -133,6 +134,11 @@ ul li {
   margin: 0;
   padding: 0;
 }
+.ul-list li {
+  list-style: circle !important;
+  display: block;
+  color: #000;
+}
 
 /* #flex-content */
 .flex-content {
@@ -156,7 +162,7 @@ ul li {
   text-align: center;
   padding: 0 15px;
   max-width: 275px;
-  height: 275px;
+  min-height: 325px;
   border: 2px solid #F1D3D3;
   display: inline-block;
   vertical-align: top;
@@ -202,10 +208,10 @@ ul li {
 }
 
 .header-calendar-content {
-  background: #fff;
+  /* background: #fff; */
   width: 100%;
   margin: 0 auto;
-  padding: 35px;
+  /* padding: 35px; */
   margin-top: 50px;
 }
 .header-calendar-content::last-child {
@@ -297,6 +303,7 @@ ul li {
   position: absolute;
   display: inline-block;
   bottom: 10px;
+  z-index: 10;
 }
 .event-speakers-item-info {
   font-size: 0.7em;

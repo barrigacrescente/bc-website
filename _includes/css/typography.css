@@ -14,7 +14,7 @@ html, .root {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  line-height: 1.3125em;
+  line-height: 1.5em;
   font-weight: 300;
   letter-spacing: 1px;
   color: #464646;
@@ -28,4 +28,8 @@ body {
 }
 .gradient-default h3 {
   color: #fff;
+}
+
+.section-title{
+  margin-bottom: 5px;
 }

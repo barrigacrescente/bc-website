@@ -1,0 +1,9 @@
+.flex-item-bg {
+  background: #fff;
+  width: 100%;
+  min-height: 330px;
+  margin: 0 auto;
+  padding: 35px;
+  margin: 0 10px 50px 10px;
+  border-radius: 10px;
+}
