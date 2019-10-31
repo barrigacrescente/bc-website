@@ -45,8 +45,7 @@
   }
   .header-calendar-content {
     margin-top: 0;
-    border-bottom: 5px dotted #9C9CDD;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
   }
   .header-calendar-content-icon {
     margin-bottom: 20px;
@@ -129,5 +128,8 @@
   }
   .previous-editions-item {
     margin-bottom: 20px;
+  }
+  #event-subscription-container{
+    margin-top: 40px;
   }
 }
