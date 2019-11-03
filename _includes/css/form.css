@@ -5,6 +5,7 @@ label {
   margin-top: 10px;
   font-weight: 400;
 }
+select,
 input {
   background: #fff;
   border: 1px solid #9C9CDD;
