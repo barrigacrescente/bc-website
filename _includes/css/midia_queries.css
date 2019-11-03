@@ -6,10 +6,18 @@
   .landing-title,
   .header-calendar-date{
     font-size: 2em;
+    line-height: 1.2;
+  }
+  .event-subscription-form {
+    padding: 0 20px;
   }
   .event-previous-editions-title {
     padding-top: 20px !important;
     margin-top: 0px !important;
+  }
+  .flex-item {
+    width: 100%;
+    padding: 0 10px;
   }
   .flex-item-bg {
     margin: 0 0 20px 0 !important;
@@ -33,9 +41,6 @@
   .wrapper {
     margin: 40px 0;
     padding: 0 20px;
-  }
-  .event-subscription-form {
-    margin-left: -10px;
   }
   .btn, a.btn, button {
     padding: 20px 15px !important;
@@ -129,8 +134,11 @@
   .previous-editions-item {
     margin-bottom: 20px;
   }
+  .flex-item-padding-left-50 {
+    padding: 0 10px !important;
+  }
   .form-image {
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
   }
   #event-subscription-container{
