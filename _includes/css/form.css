@@ -11,7 +11,7 @@ input {
   font-size: 1em;
   padding: 7px 5px;
   height: 45px;
-  width: 50%;
+  width: 80%;
   margin-bottom: 20px;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -26,4 +26,7 @@ input[type="submit"] {
   height: 50px;
   font-size: 1em;
   font-weight: bold;
+}
+.form-image {
+  padding-top: 100px;
 }
