@@ -31,3 +31,9 @@ input[type="submit"] {
 .form-image {
   padding-top: 100px;
 }
+#thankyou {
+  border: 4px solid #9C9CDD;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
